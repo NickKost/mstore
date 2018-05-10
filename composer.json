@@ -11,6 +11,10 @@
         "repo": {
             "type": "composer",
             "url": "https://repo.magento.com"
+        },
+        "fastly-magento2": {
+            "type": "git",
+            "url": "https://github.com/fastly/fastly-magento2.git"
         }
     },
     "require": {
@@ -39,7 +43,9 @@
         "magento/module-gift-registry-sample-data": "100.2.*",
         "magento/module-multiple-wishlist-sample-data": "100.2.*",
         "magento/module-swatches-sample-data": "100.2.*",
-        "magento/sample-data-media": "100.2.*"
+        "magento/sample-data-media": "100.2.*",
+        "mailchimp/mc-magento2": "^1.0",
+        "fastly/magento2": "^1.2"
     },
     "config": {
         "use-include-path": true
